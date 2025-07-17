@@ -5,6 +5,14 @@ public class Wohnung
     private int preis;
     private int anzZimmer;
     
+    public Wohnung(String newOrt, boolean newBalkon, int newPreis, int newAnzZimmer)
+    {
+        setOrt(newOrt);
+        setBalkon(newBalkon);
+        setPreis(newPreis);
+        setAnzZimmer(newAnzZimmer);
+    }
+    
     public void setOrt(String newOrt)
     {
         ort = newOrt;
