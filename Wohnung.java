@@ -60,4 +60,10 @@ public class Wohnung
     {
         return anzZimmer;
     }
+    
+    public void printWohnung()
+    {
+        System.out.println("Es befindet sich in " + ort + ", Balkon: " + balkon + " und es hat " + anzZimmer + " Zimmer und die Wohnung kostet " + preis + " Euro."
+        );
+    }
 }
