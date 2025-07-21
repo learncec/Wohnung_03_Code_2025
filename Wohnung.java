@@ -63,7 +63,6 @@ public class Wohnung
     
     public void printWohnung()
     {
-        System.out.println("Es befindet sich in " + ort + ", Balkon: " + balkon + " und es hat " + anzZimmer + " Zimmer und die Wohnung kostet " + preis + " Euro."
-        );
+        System.out.println("Es befindet sich in " + ort + ", Balkon: " + balkon + " und es hat " + anzZimmer + " Zimmer und die Wohnung kostet " + preis + " Euro.");
     }
 }
